@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Jean Kathlyn Belarmino sample responsive website">
+        <meta name="robots" content="noindex, nofollow">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="css\style.css">
+        <title>Jean Kathlyn Belarmino</title>
+        <script>
+            document.addEventListener('contextmenu', event => {
+            event.preventDefault();
+            });
+
+            document.querySelectorAll('.disabled').forEach(element => {
+            element.style.pointerEvents = 'none';
+            });
+            function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+            x.className += " responsive";
+            } else {
+            x.className = "navbar"; }
+            }
+        </script>
+    </head>
+
+<body>
+    <header class="header" id="header">
+
+    <nav class="nav container">
+    <a href="index.html" class="nav__logo">Jean Kathlyn Belarmino</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#home" class="nav__link active-link">
+                <i class='bx bx-home-alt nav__icon'></i>
+                <span class="nav__name">Home</span>
+                </a>
+            </li>
+                        
+            <li class="nav__item">
+                <a href="#about" class="nav__link">
+                <i class='bx bx-user nav__icon'></i>
+                <span class="nav__name">About me</span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#download" class="nav__link">
+                <i class='bx bx-briefcase-alt nav__icon'></i>
+                <span class="nav__name">Download PDF</span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#social" class="nav__link">
+                <i class='bx bx-book-alt nav__icon'></i>
+                <span class="nav__name">Social Media</span>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#contact" class="nav__link">
+                <i class='bx bx-message-square-detail nav__icon'></i>
+                <span class="nav__name">Contact me</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+
+        <img src="img/profile.jpeg" alt="" class="nav__img">
+        </nav>
+    </header>
+
+<main>
+ <!--=============== HOME ===============-->
+    <section class="container section section__height" id="home">
+                <h2 class="section__title">Hello World!</h2>
+                <p>&nbsp;</p>
+        <div class="main_content">
+                <p>Welcome to my website</p>
+                <p>This is a responsive site test for desktop and mobile view compatibility.</p>
+                <br><img src="img\loremipsum.jpeg"><br><p>
+                    <i style="color:#554e4e; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i>
+                    </p><p align="justify"><br>
+                    Donec ornare orci nisl, in ultrices libero luctus vitae. Donec tincidunt est at interdum tincidunt. Aliquam accumsan aliquet tortor ac tincidunt. Pellentesque a mollis erat. Suspendisse ac orci a turpis bibendum commodo eget ut nisi.</p>
+                </div>
+
+    </section>
+
+<!--=============== ABOUT ME ===============-->
+<section class="container section section__height" id="about">
+    <h1 class="section__title">About Me</h1>
+    <p>&nbsp;</p>
+<div class="about">
+    <div class="abt_img"><img src="img/profile.jpeg" width="150px" align="left"></div>
+    <div class="abt_content">
+    <p>Hi! My name is Jean Kathlyn Belarmino.
+    </p><p><br>
+
+        I have been working in the Technical/IT industry for over 20 years. My educational background is in Computer Science with majors in Programming, Multimedia, and the Internet. I also have a wide variety of skills from IT Networking to Software Development.
+    </p><p><br>
+    
+        Currently, I'm working as a Software Quality Analyst for an Australian Work, Health, and Safety Software Company.
+    </p><p><br>
+     
+        Over the years, I have built many internal web based projects for the companies that I have worked for, which have helped to improve agent productivity, quality checking and troubleshooting.
+    </p><p><br>
+   
+        This site is only to sample mobile compatibility on a responsive web design. Feel free to look around and or drop me a line at the <a href=#contact>contact me</a> section.   </p><p><br>
+
+    </div>
+</div>
+</section>
+
+<!--=============== DOWNLOAD PDF============-->
+<section class="container section section__height" id="download"></section>
+    <h1 class="section__title">Download PDF</h1>
+    <p>&nbsp;</p>
+<div class="download">
+    <p>You can download a copy of <a href="pdf\pdf_test.pdf">my CV here</a>. 
+    </p><p><br>
+        <div class="abt_img"><a href="pdf\pdf_test.pdf"><img src="img/pdf.jpeg" border="0"></a></div>
+    </p><p><br>
+     
+    <p>If your device doesnt support the plugin, you may <a href="https://get.adobe.com/reader/">click here to download Adobe Acrobat PDF viewer for PC</a>.
+    </p><p><br>
+</div>
+</section>
+<!--=============== SOCIAL MEDIA============-->
+<section class="container section section__height" id="social"></section>
+    <h1 class="section__title">Social Media</h1>
+    <p>&nbsp;</p>
+<div class="social">
+    <p>You can follow me on social media on the links below: 
+    </p><p><br><a href="https://github.com/jkbelarmino">
+        Github
+    </a></p><p><br><a href="https://www.linkedin.com/in/jeankathlynbelarmino/">
+        Linkedin
+    </a></p><p><br><a href="https://stackoverflow.com/users/25226292/jean-kathlyn-belarmino">
+        Stackoverflow
+    </a></p><p><br><a href="https://www.goodreads.com/user/show/180622693-jean-kathlyn-belarmino">
+        Goodreads
+    </a></p><p><br><a href="https://ph.pinterest.com/jkbelarmino/">
+        Pinterest
+    </a></p><p><br><a href="https://open.spotify.com/user/31s6rjlsq24fxhw2wedtypfhkysu">
+        Spotify Music    
+    </a></p><p><br>
+    </div>
+</section>
+
+<!--=============== CONTACT ME==============-->
+<section class="container section section__height" id="contact"></section>
+    <h1 class="section__title">Contact Me</h1>
+    <p>&nbsp;</p>
+<div class="contact">
+    <p>I'd love to hear from you. You can leave me a message on the form below:
+    </p><p><br>
+        <iframe src="https://form.jotform.com/242253373176456" width=100% height=1150 title="Contact Me">
+        </iframe>    </p><p><br>
+</div>
+</section>
+
+<!--================ FOOTER NOTES ===========-->
+<section class="container section section__height" id="footer"></section>
+<div class="footer">
+<p>Jean Kathlyn Belarmino &copy;<script>document.write(new Date().getFullYear())</script>
+</div>
+</section>
+
+</main>    
+<script src="main.js"></script>
+</body>
+</html>
