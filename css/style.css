@@ -164,8 +164,6 @@ img {
   color: #b83b6b;
   font-weight: 700;
   font-size: large;
-
-
 }
 
 @media screen and (max-width: 900px) {
@@ -272,7 +270,10 @@ img {
     /* display: block; */ /* Minimalist design, visible labels */
   }
   .nav__link:hover {
-    color: var(--first-color);
+    color: #b83b6b;
+  }
+  .nav__logo {
+    color: #b83b6b;
   }
 
   /* First design, remove if you choose the minimalist design */
