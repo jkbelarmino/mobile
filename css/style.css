@@ -169,7 +169,7 @@ img {
 @media screen and (max-width: 900px) {
   .nav__menu {
     position: fixed;
-    bottom: 0;
+    bottom: 50;
     left: 0;
     background-color: var(--container-color);
     box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
